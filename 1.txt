@@ -1,0 +1,153 @@
+git configure --global user.name "" 
+user.email
+
+Sure! Here's a complete list of commonly used Git commands with their descriptions, all in one go and without table formatting:
+
+
+---
+
+1. git init
+Initializes a new Git repository in the current directory. Use this to start tracking changes in a project folder.
+
+2. git clone <repository-url>
+Creates a local copy of a remote repository. Useful for downloading existing projects.
+
+3. git status
+Displays the state of the working directory and staging area. It shows which changes have been staged, which haven’t, and which files aren’t being tracked.
+
+4. git add <file>
+Stages a specific file for the next commit. Use git add . to stage all changed files in the directory.
+
+5. git commit -m "message"
+Commits the staged changes to the repository with a descriptive message.
+
+6. git push
+Uploads your local commits to the remote repository. You typically use this after git commit.
+
+7. git pull
+Fetches and merges changes from the remote repository into your current branch. This keeps your local branch up-to-date.
+
+8. git fetch
+Downloads new data from a remote repository—but doesn't merge it into your working files. Use this to see what others have pushed without affecting your work.
+
+9. git branch
+Lists all branches in your repository. The current branch is highlighted with an asterisk.
+
+10. git branch <branch-name>
+Creates a new branch but doesn’t switch to it.
+
+11. git checkout <branch-name>
+Switches to the specified branch.
+
+12. git checkout -b <branch-name>
+Creates a new branch and switches to it in a single command.
+
+13. git merge <branch-name>
+Merges the specified branch into your current branch. Used to combine changes from different branches.
+
+14. git remote -v
+Shows the URLs of the remote repositories associated with your project.
+
+15. git remote add <name> <url>
+Adds a new remote repository under a name like origin.
+
+16. git push origin <branch-name>
+Pushes your branch to the remote repository.
+
+17. git reset <file>
+Unstages a file, keeping its changes in your working directory.
+
+18. git reset --hard
+Resets the staging area and working directory to match the last commit. WARNING: This will erase uncommitted changes.
+
+19. git checkout -- <file>
+Reverts a specific file to the last committed version. Useful for discarding unwanted changes in one file.
+
+20. git log
+Shows a list of all past commits in the repository, including the author, date, and commit message.
+
+21. git diff
+Displays the differences between files in the working directory and the staging area.
+
+22. git show <commit-id>
+Shows detailed information about a specific commit, including changes and metadata.
+
+Docker commands
+
+Here’s a complete list of essential Docker commands with their descriptions:
+
+
+---
+
+1. docker --version
+Displays the installed Docker version.
+
+2. docker pull <image>
+Downloads a Docker image from Docker Hub (or another registry).
+
+3. docker images
+Lists all Docker images available locally.
+
+4. docker run <image>
+Runs a container from the specified image.
+
+5. docker run -it <image>
+Runs a container in interactive mode with a terminal (useful for shell access).
+
+6. docker run -d <image>
+Runs a container in detached mode (in the background).
+
+7. docker run --name <container-name> <image>
+Runs a container and gives it a custom name.
+
+8. docker ps
+Lists currently running containers.
+
+9. docker ps -a
+Lists all containers, including stopped ones.
+
+10. docker stop <container-id|name>
+Stops a running container.
+
+11. docker start <container-id|name>
+Starts a stopped container.
+
+12. docker restart <container-id|name>
+Restarts a container.
+
+13. docker rm <container-id|name>
+Removes a stopped container.
+
+14. docker rmi <image-id|name>
+Removes a Docker image.
+
+15. docker exec -it <container-id|name> bash
+Accesses a running container with an interactive shell (bash).
+
+16. docker build -t <tag-name> .
+Builds a Docker image from a Dockerfile in the current directory.
+
+17. docker logs <container-id|name>
+Shows the logs from a container.
+
+18. docker network ls
+Lists Docker networks.
+
+19. docker volume ls
+Lists Docker volumes.
+
+20. docker-compose up
+Starts services defined in a docker-compose.yml file.
+
+21. docker-compose down
+Stops and removes containers, networks, volumes defined by docker-compose.
+
+22. docker inspect <container-id|name>
+Returns low-level details about a container or image in JSON format.
+
+
+---
+
+Want a cheat sheet or real-world example project using Docker?
+
+
